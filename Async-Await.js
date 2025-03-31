@@ -3,7 +3,7 @@ import { fetchApiAsyncAwait } from "./helpers/fetchAPI.js";
 fetchApiAsyncAwait("http://localhost:3000/products").then((data) => {
   // dùng từ json-server
   let htmls = "";
-  data.forEach((item) => {
+  data.products.forEach((item) => {
     htmls += `
                  <div class="product-item">
                    <img src="${item.thumbnail}" alt="${item.title}" />

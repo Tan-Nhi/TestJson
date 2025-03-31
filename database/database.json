@@ -1,5 +1,5 @@
 {
-  "product": {
+  "products": {
     "products": [
       {
         "id": 6,
@@ -301,5 +301,25 @@
     "skip": 0,
     "limit": 5
   },
-  "category": ["Fragrances", "Women's Fragrances", "Beauty"]
+  "categories": [
+    "Beauty",
+    "Fragrances",
+    "Furniture",
+    "Groceries",
+    "Home Decoration",
+    "Kitchen Accessories",
+    "Mens Shirts",
+    "Mens Watches",
+    "Mobile Accessories",
+    "Motorcycle",
+    "Skin Care",
+    "Smartphones",
+    "Sports Accessories",
+    "Sunglasses",
+    "Tablets",
+    "Vehicle",
+    "Tops",
+    "Womens Bags",
+    "Womens Dresses"
+  ]
 }
